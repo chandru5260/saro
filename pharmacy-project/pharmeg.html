@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodai Pharmacy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .pharmacy-logo {
+            width: 50px;
+           
+            margin-left: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+            margin-left: 2px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background: #f4f4f4;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .hero .btn {
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section {
+            padding: 2rem 0;
+        }
+        section#about, section#services, section#contact {
+            background: #f9f9f9;
+        }
+        .container {
+            width: 90%;
+            
+            
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .header-home:hover, .header-aboutus:hover, .header-services:hover, .header-contact:hover {
+            color: orangered;
+            transition: 0.6s;
+        }
+        .tittle {
+            padding: 0px 0px 0px 3px;
+            color: green;
+            margin: 0px 0px 10px;
+            font-size: medium;
+            font-style: normal;
+            border-style: inset;
+            border-width: 1px;
+        }
+        .our-services {
+            color: black;
+            margin-left: opx;
+            font-size: 25px;
+        }
+        .home-delivery {
+            padding: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+            background-image: url(images/backgroundimg.jpg);
+        }
+        .home-delivery .service {
+            flex: 1 1 30%; 
+            text-align: center;
+            padding: 10px;
+        }
+        .home-deliverimg {
+            width: 75px;
+            margin: 0 auto;
+        }
+        .greenp {
+            color: violet;
+        }
+        .kodaipharm {
+        
+        padding-right:600px ;
+    
+        }
+       
+      </style>
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <img class="pharmacy-logo" src="images/pharmacy-logo.jpg">
+            <p class="kodaipharm">KODAI PHARMACY</p>
+            
+            
+            <nav>
+                <ul>
+                    <li><a href="#home" class="header-home">Home</a></li>
+                    <li><a href="#about" class="header-aboutus">About Us</a></li>
+                    <li><a href="#services" class="header-services">Services</a></li>
+                    <li><a href="#contact" class="header-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h5>KODAI PHARMACY</h5>
+            <p>Your health is our priority. Providing quality medications and personalized care.</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+     <h5>Our Services</h5>
+        
+    </section>
+    <section id="small" class="home-delivery">
+        <div class="service">
+            <img class="home-deliverimg" src="images/ambulance.png" alt="Free Delivery">
+            <p class="greenp">Free Delivery</p>
+            <p>All our branches will deliver medicines at your doorstep free of cost (minimum purchase value Rs 200).</p>
+        </div>
+        <div class="service">
+            <img class="home-deliverimg" src="images/eyedonation.png" alt="Eye Donation">
+            <p class="greenp">Eye Donation</p>
+            <p>Eye donation can restore sight to individuals suffering from corneal blindness and other vision impairments.</p>
+        </div>
+        <div class="service">
+            <img class="home-deliverimg" src="images/health-check.png" alt="Health Check">
+            <p class="greenp">Health check</p>
+            <p>Pharmacists provide advice on lifestyle changes,<br> nutrition, and preventive measures to maintain good health.</p>
+        </div>
+        <div class="service">
+            <img class="home-deliverimg" src="images/donor.png" alt="donor" position="center">
+            <p class="greenp"> Donor</p>
+            <p> Maintain accurate records of donations,<br> including quantity, type of items, and <br>recipient details.</p>
+        </div>
+        <div class="service">
+            <img class="home-deliverimg" src="images/health.png" alt="health">
+            <p class="greenp">Health</p>
+            <p> Dispense medications as prescribed by healthcare providers,<br> ensuring accuracy in dosage and instructions.</p>
+        </div>
+        <div class="service">
+            <img class="home-deliverimg" src="images/advice.png" alt="advice">
+            <p class="greenp"> Advice</p>
+            <p> Pay close attention to the patient’s concerns and health issues.<br> Advise on recommended vaccines and their schedules.</p>
+        </div>
+
+
+        </div>
+        
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Prescription Medications</li>
+                <li>Over-the-Counter Products</li>
+                <li>Health Consultations</li>
+                <li>Delivery Services</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: kodai@pharmacy.com</p>
+            <p>Phone: +91 6382694360</p>
+            <p>Address: Ramar kovil street, Kumbaraiyur, Kodaikanal(TK), Dindigul(Dt), Tamilnadu.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kodai Pharmacy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
